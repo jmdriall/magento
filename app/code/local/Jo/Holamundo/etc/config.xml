@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Opcionalmente podemos poner un comentario contando qué hace nuestro módulo, nuestra web,
+información sobre la licencia, etc
+-->
+<config>
+    <modules>
+        <Jo_HolaMundo> <!-- namespace_modulo -->
+
+            <!-- Esta es la versión de nuestro módulo -->
+            <version>0.0.1</version>
+
+        </Jo_HolaMundo>
+    </modules>
+    <!-- Lo que necesitamos para utilizar los controladores -->
+    <frontend>
+        <routers>
+            <holaMundo>
+                <use>standard</use>
+                <args>
+                    <module>Jo_HolaMundo</module>
+                    <frontName>holamundo</frontName>
+                </args>
+            </holaMundo>
+        </routers>
+    </frontend>
+    <!-- Lo que necesitamos para utilizar los controladores -->
+</config>
