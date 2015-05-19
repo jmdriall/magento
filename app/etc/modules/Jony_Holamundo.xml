@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jony_Holamundo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Jony_Holamundo>
+    </modules>
+</config>

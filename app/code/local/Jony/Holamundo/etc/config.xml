@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Jony_Holamundo>
+            <version>0.0.1</version>   <!-- Version number of your module -->
+        </Jony_Holamundo>
+    </modules>
+    <frontend>
+        <routers>
+            <holamundo>
+                <use>standard</use>
+                <args>
+                    <module>Jony_Holamundo</module>
+                    <frontName>holamundo</frontName>
+                </args>
+            </holamundo>
+        </routers>
+        <layout>
+            <updates>
+                <helloworld>
+                    <file>holamundo.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
+    </frontend>
+</config><!--
+<global>
+&lt;!&ndash;<controllers>
+    <holamundo>
+        <class>Jony_Holamundo_Block</class>
+    </holamundo>
+</controllers>&ndash;&gt;
+<blocks>
+    <holamundo>
+        <class>Jony_Holamundo_Block</class>
+    </holamundo>
+</blocks>
+<helpers>
+    <holamundo>
+        <class>Jony_Holamundo_Helper</class>
+    </holamundo>
+</helpers>
+<models>
+    <holamundo>
+        <class>Jony_Holamundo_Model</class>
+    </holamundo>
+</models>
+</global>-->
