@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jony_Holamundo>
+            <version>0.1.0</version>
+        </Jony_Holamundo>
+    </modules>
+    <frontend>
+        <routers>
+            <holamundo>
+                <use>standard</use>
+                <args>
+                    <module>Jony_Holamundo</module>
+                    <frontName>holamundo</frontName>
+                </args>
+            </holamundo>
+        </routers>
+    </frontend>
+    <global>
+        <blocks>
+            <!-- por convención: Jony_Holamundo, todo en minúsculas -->
+            <Jony_Holamundo>
+                <!-- indica la carpeta raíz para los blocks del módulo -->
+                <class>Jony_Holamundo_Block</class>
+            </Jony_Holamundo>
+        </blocks>
+        <helpers>
+            <Jony_Holamundo>
+                <!-- indica la carpeta raíz para los helpers del módulo -->
+                <class>Jony_Holamundo_Helper</class>
+            </Jony_Holamundo>
+        </helpers>
+        <models>
+            <Jony_Holamundo>
+                <!-- indica la carpeta raíz para los modelos del módulo -->
+                <class>Jony_Holamundo_Model</class>
+            </Jony_Holamundo>
+        </models>
+    </global>
+</config>

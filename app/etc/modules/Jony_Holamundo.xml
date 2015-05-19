@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <!-- por convención: Namespace_NombreModulo> -->
+        <!-- respetando mayúsculas & minúsculas -->
+        <Jony_Holamundo>
+            <codePool>local</codePool>
+            <active>true</active>
+        </Jony_Holamundo>
+    </modules>
+</config>
